@@ -10,9 +10,9 @@ spec:
     metadata:
       labels:
         app: mynginx
-  spec:
+    spec:
      containers:
        - name: mynginx-container
          image: nginx
          ports:
-          - containerPort: 80
+           - containerPort: 80
